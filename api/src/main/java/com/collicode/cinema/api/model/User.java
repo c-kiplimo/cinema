@@ -22,7 +22,7 @@ public class User {
 	private Role role;
 	
 	@JsonIgnore
-	@OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade=CascadeType.ALL) // mappedBy je kako je stavljeno u projection entity naziv atributa klase USER
+	@OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade=CascadeType.ALL)
 	private List<Projection> projections = new ArrayList<Projection>();
 	
 	private boolean isDeleted;
