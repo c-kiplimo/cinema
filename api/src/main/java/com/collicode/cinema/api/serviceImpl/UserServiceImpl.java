@@ -111,27 +111,6 @@ public class UserServiceImpl implements UserService {
 		return "valid";
 	}
 
-//	@Override
-//	public String validateUserUpdate(User user) {
-//		if (user.getEmail() == null || user.getEmail().trim().isEmpty() || user.getLastName() == null
-//				|| user.getLastName().trim().isEmpty() || user.getFirstName() == null
-//				|| user.getFirstName().trim().isEmpty() || user.getUsername() == null
-//				|| user.getUsername().trim().isEmpty() || user.getPhoneNumber() == null
-//				|| user.getAddress().trim().isEmpty() || user.getAddress() == null
-//				|| user.getPassword().trim().isEmpty() || user.getPassword() == null
-//				|| user.getPhoneNumber().trim().isEmpty() || !user.getEmail().matches("^(.+)@(.+)$")) {
-//			return "invalidInput";
-//		}
-//		List<User> allUsers = userRepository.findAll();
-//		allUsers.remove(userRepository.findById(user.getId()).get());
-//		for (User u : allUsers) {
-//			if (u.getEmail().equals(user.getEmail())) {
-//				return "emailAlreadyExist";
-//			}
-//		}
-//		return "valid";
-//	}
-
 	private boolean isEmailUnique(String emal) {
 		List<User> allUsers = userRepository.findAll();
 		for (User u : allUsers) {
@@ -141,18 +120,6 @@ public class UserServiceImpl implements UserService {
 		return true;
 	}
 
-//	@Override
-//	public String updateUser(User u) {
-//		User user = userRepository.findById(u.getId()).get();
-//		user.setFirstName(u.getFirstName());
-//		user.setLastName(u.getLastName());
-//		user.setPassword(u.getPassword());
-//		user.setPhoneNumber(u.getPhoneNumber());
-//		user.setAddress(u.getAddress());
-//		user.setEmail(u.getEmail());
-//		userRepository.save(user);
-//		return "success";
-//	}
 	
 	@Override
 	public String deactivateUser(Long id) {

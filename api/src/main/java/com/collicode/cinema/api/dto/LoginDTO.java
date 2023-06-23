@@ -5,7 +5,7 @@ package com.collicode.cinema.api.dto;
 public class LoginDTO {
 	
 	private String token;
-	//private User user;
+
 	private String nameSurname;
 	private String messageInvalidUsernameOrPassword;
 	

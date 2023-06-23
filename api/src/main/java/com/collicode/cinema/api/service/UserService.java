@@ -20,8 +20,7 @@ public interface UserService {
 	User delete(User user);
 	User getCurrentUser();
 	String validateUser(User user);
-//	String validateUserUpdate(User user);
-//	String updateUser(User u);
+
 	LoginDTO generateToken(Login login);
 	String isValidLogout();
 	String deactivateUser(Long id);
