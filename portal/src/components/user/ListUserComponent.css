@@ -1,0 +1,53 @@
+.theadth{
+    font-size: large;
+    color: whitesmoke
+}
+
+.td-content{
+    font-size: large;
+    color: white !important; /* kad je hover misem preko kolone u redu tabele budu bele sve kolone, a kad je bez important budu sivi, na hover kad sam stavio bude samo ta kolona bela ostale ne, nema smisla al ovako radi jedino */
+    /* color: white;  */
+    padding-top: 15px !important; /* moze i na bolji nacin verovatno da se centrira po vertikali */
+    cursor: pointer;
+    /* text-align: center;  po horizontali ali ne treba */ 
+}
+
+/* .td-content{
+    cursor: pointer;
+    /* background-color: white; */
+    /* color: white !important; */
+
+
+
+.table{
+    margin-top: 20px;
+    border-color: #766000 !important;
+    
+}
+
+.container{
+    margin-top: 50px;
+    /* border: 2px solid  #766000;
+    border-radius: 30px; */
+}
+
+.btnDelete{
+    color: white;
+    background-color: #766000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border: 2px solid rgba(208, 208, 208, 0.79);
+    border-radius: 5px;
+}
+
+.btnDelete:hover{
+    color: #766000;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.h1-users{
+    text-align: center;
+}
