@@ -39,9 +39,6 @@ Create movie (mobile)
 ![createmoviemobile](https://user-images.githubusercontent.com/76042091/229884854-117fe107-e636-42f8-909d-40429a53cd7e.jpg)
 ![createmoviemobile2resized](https://user-images.githubusercontent.com/76042091/229884848-b7de1a79-18f7-4f01-976d-c4fd3df80f45.jpg)
 
-List user (desktop)
-
-![usersdesktop](https://user-images.githubusercontent.com/76042091/229885330-9eccd913-b20c-49df-ac1e-25ff259260b4.jpg)
 
 Navbar (signed in as admin) for mobile screen size 
 
