@@ -16,11 +16,13 @@ Sign in for mobile screen size
 
 Sign in for desktop screen size
 
-![signindesktop](https://user-images.githubusercontent.com/76042091/229883515-fa33cc1e-de10-4138-8222-c5c046d7e28a.jpg)
+![Screenshot_2023-06-28_01-41-50](https://github.com/c-kiplimo/cinema/assets/90177693/64455381-937e-4583-9ae0-c5496db0cb39)
+
 
 Registration (desktop)
 
-![registrationdesktop2](https://user-images.githubusercontent.com/76042091/229885904-8e963722-61ac-467b-b86d-41d801e9c2b2.jpg)
+![Screenshot_2023-06-28_01-42-25](https://github.com/c-kiplimo/cinema/assets/90177693/e61eaf25-f795-46df-8acc-e1426b95a884)
+
 
 Registration (mobile)
 
@@ -28,11 +30,13 @@ Registration (mobile)
 
 List movie (desktop)
 
-![moviesdesktop](https://user-images.githubusercontent.com/76042091/229884347-905f5360-8e76-413c-8a6e-5ac592f0a9b1.jpg)
+![Screenshot_2023-06-28_01-38-51](https://github.com/c-kiplimo/cinema/assets/90177693/d7222384-2275-44a3-b06f-05ec3b72cdbc)
+
 
 Create movie (desktop)
 
-![create new movie](https://user-images.githubusercontent.com/76042091/229884445-d50217c6-c095-4d16-a0f3-7020890a6299.jpg)
+![Screenshot_2023-06-28_01-40-33](https://github.com/c-kiplimo/cinema/assets/90177693/dc465190-1f62-4cd6-b422-72005f56fb50)
+
 
 Create movie (mobile)
 
