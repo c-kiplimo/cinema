@@ -17,11 +17,11 @@ const submitRegistration = (e) =>{
     e.preventDefault();
 
     const user = {nameSurname, username, password, email};
-    console.log("usao submit registration")
+    console.log("user submit registration")
     UserService.register(user).then((response) =>{
       let responseFromServer = response.data.toString();
       if(responseFromServer == "success"){
-        alert("Uspesno registrovan!");
+        alert("User registration successful!");
         navigate("/login");
       }
     })
